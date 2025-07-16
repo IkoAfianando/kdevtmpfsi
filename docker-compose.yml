@@ -1,0 +1,6 @@
+services:
+  process-killer:
+    build: .
+    container_name: kdevtmpfsi-killer
+    pid: "host"
+    restart: always
