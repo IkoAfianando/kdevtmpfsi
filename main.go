@@ -9,7 +9,7 @@ import (
 )
 
 const (
-	processName = "kdevtmpfsi"
+	processName = "/tmp/kdevtmpfsi"
 	checkInterval = 5 * time.Second
 )
 
